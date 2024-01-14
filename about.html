@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* To remove scrollbars */
+        }
+
+        header {
+            width: 100%;
+            height: 100vh; /* Set the height to cover the entire viewport */
+            overflow: hidden;
+            position: relative;
+            display: flex;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .overlay {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 30%; /* Adjust the width of the overlay */
+            height: 100%;
+            background: rgba(50, 50, 50, 0.8); /* Darker gray with transparency */
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .overlay-text {
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.2em; /* Adjust the font size */
+        }
+
+        .discord-image {
+            width: 100%; /* Discord image takes up the entire bottom of the gray area */
+            height: auto;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="overlay">
+            <div class="overlay-text">
+                <p>LifeSteal SMP is an extraordinary realm where boundless fun, thrilling adventures, and endless possibilities unfold. Dive into the heart of our vibrant community, where every corner is teeming with excitement, camaraderie, and opportunities for epic stories. Unleash your creativity as you explore, build, and conquer in a world that invites you to defy the limits of imagination. Join us in this dynamic universe, forge new alliances, and make lasting memories. Join us, see what's up, and talk with us on the Discord.</p>
+                <p>Explore the sprawling landscapes, engage in friendly competitions, and participate in community events that bring everyone together. LifeSteal SMP is not just a server; it's a home for gamers seeking a place to connect, share, and thrive. With a rich history of exciting gameplay, our server is a testament to the passion and dedication of our community. Join us to experience the magic of LifeSteal SMP – a place where every player contributes to the unfolding story. We believe in creating a welcoming environment where players of all backgrounds can find their place and create lasting memories.</p>
+                <p>Immerse yourself in the diverse landscapes, each with its unique challenges and opportunities. Whether you're a seasoned adventurer or a novice explorer, LifeSteal SMP offers something for everyone. Engage in lively discussions with fellow players on our Discord channel, where friendships are forged, strategies are shared, and laughter echoes through the digital realm.</p>
+                <p>Welcome to a world where imagination knows no bounds!</p>
+            </div>
+            <a href="https://discord.gg/k6SbB7b5bA/" target="_blank">
+                <img src="https://th.bing.com/th/id/OIP.Jnv8aAXXJs9xBS2VycyGgAHaCI?rs=1&pid=ImgDetMain" alt="Discord Image" class="discord-image">
+            </a>
+        </div>
+        <img src="https://th.bing.com/th/id/OIP.CAJkX-BGwAsi-uGMTJ8jgAHaHa?w=160&h=180&c=7&r=0&o=5&pid=1.7" alt="Header Image">
+    </header>
+
+    <!-- The rest of your webpage content goes here -->
+
+</body>
+</html>
